@@ -1,4 +1,4 @@
-from pacotes import fatorial, fibonacci
+from pacotes import fatorial, fib
 
-print(fibonacci.fib(10))      # Chama a função 'fib' do módulo 'fibonacci'
-print(fatorial.fatorial(5))   # Chama a função 'fatorial' do módulo 'fatorial'
+print(fib(10))
+print(fatorial(5))
