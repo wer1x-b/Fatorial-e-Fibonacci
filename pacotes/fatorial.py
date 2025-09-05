@@ -1,6 +1,6 @@
 def fatorial(n):
     if n < 0:
-        raise ValueError("Factorial is not defined for negative numbers.")
+        raise ValueError("Fatorial não está definido em números negativos.")
     if n == 0 or n == 1:
         return 1
     resultado = 1
